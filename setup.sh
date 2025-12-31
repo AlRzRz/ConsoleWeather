@@ -13,9 +13,9 @@ weather() {
 # --- end weather helper ---
 '
 
-if [ -n "$ZSH_VERSION" ]; then
+if [[ "$SHELL" == */zsh ]]; then
   RC_FILE="$HOME/.zshrc"
-elif [ -n "$BASH_VERSION" ]; then
+elif [[ "$SHELL" == */bash ]]; then
   RC_FILE="$HOME/.bashrc"
 else
   RC_FILE="$HOME/.profile"
