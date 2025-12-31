@@ -1,55 +1,53 @@
-Weather CLI Helper
+# Weather CLI Helper
 
-A tiny shell helper to fetch weather from wttr.in directly in your terminal.
+*A tiny shell helper to fetch weather from wttr.in directly in your terminal.*
 
-Example
 
+### Examples
+```
 weather dubai
-
 weather london
-
 weather tokyo
+```
 
-Installation
+## Installation
 
 Clone the repo and run the setup script:
 
+```
 chmod +x setup.sh
-
 ./setup.sh
+```
 
 Reload your shell configuration:
 
+```
 source ~/.bashrc # Bash
-
 source ~/.zshrc # Zsh
+```
 
-Usage
+## Usage
 
+```
 weather <city>
+```
 
-Examples
-
-weather dubai
-
-weather newyork
-
-Notes
+## Notes
 
 If no city is provided, the script prints:
 
-Usage: weather <city>
+`Usage: weather <city>`
 
-No dependencies beyond curl
+- No dependencies beyond curl
 
-Bash & Zsh compatible
+- Bash & Zsh compatible
 
-Idempotent and safe; won’t duplicate installation
+- Idempotent and safe; won’t duplicate installation
 
-Uninstall
+## Uninstall
 
 Remove the weather function block from your shell config:
 
-~/.bashrc (Bash) or ~/.zshrc (Zsh)
+`~/.bashrc (Bash)` or `~/.zshrc (Zsh)`
 
-Reload your shell
+**Reload your shell**
