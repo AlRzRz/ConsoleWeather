@@ -1,6 +1,6 @@
 # Weather CLI Helper
 
-*A tiny shell helper to fetch weather from wttr.in directly in your terminal.*
+*A tiny shell helper to fetch weather from wttr.in directly in your console.*
 
 
 ### Examples
